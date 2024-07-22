@@ -1,7 +1,8 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Info from "@/components/MainInfo/info";
 export default function Home() {
   return (
-    <div></div>
+    <div>
+      <Info></Info>
+    </div>
   );
 }
