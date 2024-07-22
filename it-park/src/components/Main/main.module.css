@@ -1,0 +1,124 @@
+.main {
+    position: relative;
+    overflow: hidden; 
+}
+
+.mainContent {
+    padding: 0px 20px 0px 20px; 
+}
+
+.image {
+    width: 660px;
+    height: 700px;
+    margin: 30px 40px auto auto; 
+    display: block;
+}
+
+.directions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border: 1px solid #C7C7CC;
+    border-radius: 8px;
+    font-size: 17px;
+    margin-bottom: 20px; 
+}
+
+.directions_1 {
+    width: 139px;
+}
+
+.directions_2 {
+    width: 103px;
+}
+
+.directions_3 {
+    width: 99px;
+}
+
+.direct_buttons_1,
+.direct_buttons_2,
+.direct_buttons_3 {
+    position: absolute;
+    width: 150px;
+    height: 52px;
+}
+
+.direct_buttons_1 {
+    top: 230px;
+    left: 277px;
+}
+
+.direct_buttons_2 {
+    top: 310px;
+    left: 500px;
+}
+
+.direct_buttons_3 {
+    top: 380px;
+    left: 95px;
+}
+
+.main_text {
+    position: absolute;
+    width: 650px;
+    top: 494px;
+    left: 57px;
+    gap: 24px;
+}
+
+.main_text_h1 {
+    font-size: 54px;
+    margin-bottom: 24px;
+}
+
+.icons {
+    overflow: visible;
+    padding: 20px 10px 0 0;
+    object-fit: cover;
+}
+
+.main_text_desc {
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.main_text_scroll {
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.arrow_scroll {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 176px;
+    height: 56px;
+}
+
+.cards {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 240px;
+    top: 460px;
+    left: 750px;
+    gap: 30px !important;
+}
+
+.card_info {
+    width: 285px;
+    height: 240px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+}
+
+.plus_icon {
+    position: absolute;
+    bottom: 40px;
+    right: 140px;
+}
