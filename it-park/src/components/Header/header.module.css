@@ -1,9 +1,9 @@
 .header {
     position: absolute;
     background: rgba(255, 255, 255, 0.5);
-    width: calc(100% - 124px); 
+    width: 1316px;
     height: 74px;
-    margin: 60px 62px;
+    margin:  30px 30px 0px 62px;
     border-radius: 16px;
     padding: 12px;
     display: flex;
