@@ -1,0 +1,107 @@
+.cards{
+    display: flex;
+    width: 1440px;
+    height: 748px;
+    justify-content: space-evenly;
+}
+.card{
+    display: flex;
+    width: 420px;
+    height: 600px;
+    border-radius: 20px;
+    border: 1px solid #C7C7CC;
+    padding: 30px;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.card_text_1{
+    display: flex;
+    width: 224px;
+}
+.card_text_2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card_text_2 h2{
+    font-size: 64px;
+}
+.button_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.left_button, .right_button {
+    border: none;
+    cursor: pointer;
+    background: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.card_1{
+    display: flex;
+    justify-content: space-between;
+}
+.arrow_container{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 70px;
+}
+.sekiro{
+    background:none;
+    border-radius: 10px;
+}
+.bottom_text{
+    display: flex;
+    gap: 5px;
+}
+.text_p{
+    font-size: 17px;
+}
+.text_div{
+    font-size: 14px;
+    color: #8E8E93;
+}
+.text_div_2{
+    font-size: 17px;
+    color: #8E8E93;
+}
+.contact_container{
+    display: flex;
+    margin: 20px 20px 20px 170px;
+}
+.card_special{
+    position: relative;
+    display: flex;
+    width: 420px;
+    height: 600px;
+    border-radius: 20px;
+    border: 1px solid #C7C7CC;
+    padding: 0px;
+    align-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.card_photo{
+    border-radius: 20px;
+    z-index: -2;
+    position: absolute;
+    background: rgba(22, 22, 22, 0.4);
+
+}
+.card_text_3{
+    margin: 30px;
+    color: #ffffff;
+    
+}
+.card_text_3 h3{
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 33px;
+}
+.card_text_3 p{
+    font-size: 14px;
+    color: #ffffff;
+}
