@@ -5,24 +5,6 @@ export default function Main() {
     return (
       <main className={styles.main}>
         <div className={styles.mainContent}>         
-          <div className={styles.direct_buttons_1}>
-            <Image src="/images/mainImg/plus.svg" className={styles.plus_icon} alt="plus" width={21.93} height={21.6}/>
-            <div className={`${styles.directions} ${styles.directions_1}`}>
-              <div>UX/UI Design</div>
-            </div>
-          </div>
-          <div className={styles.direct_buttons_2}>
-            <Image src="/images/mainImg/plus.svg" className={styles.plus_icon} alt="plus" width={21.93} height={21.6}/>
-            <div className={`${styles.directions} ${styles.directions_2}`}>
-              <div>Frontend</div>
-            </div>
-          </div>
-          <div className={styles.direct_buttons_3}>
-            <Image src="/images/mainImg/plus.svg" className={styles.plus_icon} alt="plus" width={21.93} height={21.6}/>
-            <div className={`${styles.directions} ${styles.directions_3}`}>
-              <div>Backend</div>
-            </div>
-          </div>
           <div className={styles.main_text}>
             <h1 className={styles.main_text_h1}>
               Передовые технологии <br /> обучения        

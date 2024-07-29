@@ -78,6 +78,9 @@ export default function Cards() {
                             Приложение на 
                             Flutter за один час.
                             </h3>
+                            <div className={styles.button_flutter}>
+                                <a className={styles.button_text} href="">Подробнее</a>
+                            </div>
                         </div>
                         
                         
