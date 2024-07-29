@@ -1,0 +1,46 @@
+
+.container {
+    box-sizing: border-box;
+    width: 660px;
+    height: 56px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+    border-bottom: solid 1px #8E8E93;
+
+}
+  
+.button {
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    box-sizing: border-box;
+    background: white;
+    color: black;
+    font-size: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.content {
+    background-color: #f9f9f9;
+    margin-top: 24px;
+
+}
+  
+.open {
+    height: 382px; 
+}
+  
+.open .content {
+    display: block;
+}
+.content_img{
+    border-radius: 12px;
+    margin-top: 12px;
+
+}
+
+
+  

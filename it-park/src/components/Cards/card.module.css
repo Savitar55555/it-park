@@ -1,8 +1,10 @@
+
 .cards{
     display: flex;
     width: 1440px;
     height: 748px;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 30px;
 }
 .card{
     display: flex;
@@ -39,6 +41,7 @@
     display: flex;
     align-items: center;
 }
+
 .card_1{
     display: flex;
     justify-content: space-between;
@@ -55,6 +58,8 @@
 .bottom_text{
     display: flex;
     gap: 5px;
+    border-bottom: 1px solid ;
+    padding: 0px 0 10px 0;
 }
 .text_p{
     font-size: 17px;
@@ -104,4 +109,19 @@
 .card_text_3 p{
     font-size: 14px;
     color: #ffffff;
+}
+.button_flutter{
+    
+    display: flex;
+    width: 132px;
+    height: 40px;
+    border-radius: 70px;
+    background: #ffffff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.button_text{
+    color: black;
+    font-size: 17px;
 }
