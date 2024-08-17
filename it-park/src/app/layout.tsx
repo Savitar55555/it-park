@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
-import { Golos_Text } from "next/font/google"; 
+import { Golos_Text,Inter } from "next/font/google"; 
 import "./globals.css"; 
+const inter = Inter({
+  subsets: ["latin"],
 
+});
 const golosText = Golos_Text({
   subsets: ["latin"],
+
 });
 
 export const metadata: Metadata = {
@@ -19,11 +23,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=1.0, user-scalable=no"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
         <link rel="stylesheet" href="/fonts/sf-pro-display.css" /> 
         
       </head>
-      <body className={golosText.className}>
+      <body className={`${inter.className} ${golosText.className}`}>
         {children}
       </body>
     </html>

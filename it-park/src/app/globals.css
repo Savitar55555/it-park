@@ -5,8 +5,7 @@
 }
 body{
     font-family: 'Golos Text', sans-serif;
-    
-
+   
 }
   
 a{
@@ -16,4 +15,7 @@ a{
 p{
     font-family: 'SF Pro Display', sans-serif;
     text-decoration: none;
+}
+h1{
+    font-family: 'Inter'sans-serif;
 }

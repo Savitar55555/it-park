@@ -16,7 +16,7 @@ export default function Question() {
                     <p className={styles.image_text} >Смотреть больше об IT park</p>
                     
                     <div className={styles.image_text}>
-                        <p>
+                        <p className={styles.icon_with_text}>
                             <Image src="/images/advanced/playIcon.svg" alt="" width={30} height={30}  />
                             Смотреть
                         </p>

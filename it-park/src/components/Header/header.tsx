@@ -9,8 +9,12 @@ export default function Header() {
             </div>
             <div className={styles.rightSection}>
                 <div className={styles.button}>
-                    <Image src="/images/headerImg/instagram.svg" alt="f" width={30} height={30} />
-                    <Image src="/images/headerImg/whatsapp.svg" alt="f" width={30} height={30}/>
+                    <div className={styles.icon}>
+                        <Image src="/images/headerImg/instagram.svg" alt="f" width={14} height={14} />
+                    </div>
+                    <div className={styles.icon}>
+                        <Image src="/images/headerImg/whatsapp.svg" alt="f" width={14} height={14}/>
+                    </div>
                     <a className={styles.text_a} href="">+996(997) 919-170</a>
                 </div>
                 <div className={styles.button}>

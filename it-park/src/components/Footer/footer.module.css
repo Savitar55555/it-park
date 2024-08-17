@@ -1,0 +1,100 @@
+.footer{
+    display: flex;
+    gap: 30px;
+    padding:0 0px 0 60px;
+    justify-content: center;
+}
+.block_1{
+    display: flex;
+    width: 630px;
+    height: 520px;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.block_2{
+    display: flex;
+    width:665px;
+    height: 520px;
+    padding: 30px;
+    border: 1px;
+    box-shadow: 0px 2px 24px 0px #00000014;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.Inblock_2{
+    display: flex;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+.text{
+    font-size: 24px;
+}
+.map_text{
+    margin-left: 10px;
+}
+.mapImg{
+    border-radius: 12px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    margin: 15px 0 15px 0;
+    gap: 10px;
+}
+.black{
+    font-weight: 600;
+    line-height: 20.57px;
+    color: #161616;
+}
+.input_box{
+    display: flex;
+    width: 320px;
+    height: 44px;
+    border: 1px solid #C7C7CC;
+    border-radius: 8px;
+    align-items: center;
+    
+}
+.input_icons{
+    margin: 0 10px 0 10px;
+}
+.input{
+    all: unset;
+    border: none;
+    color:#C7C7CC;
+
+}
+.buttonOtpr{
+    width: 320px;
+    height: 40px;
+    background: #FEB101;
+    border: none;
+    border-radius: 8px;
+}
+.connection{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.textOninput{
+    margin-bottom: 24px;
+}
+.creator_container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.creator{
+    display: flex;
+    height: 60px;
+    background: #000000;
+    color: white;
+    border-radius: 10px;
+    padding: 18px 26px 18px 26px;
+    
+}

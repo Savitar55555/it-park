@@ -1,10 +1,8 @@
 .question{
-    position: relative;
     display: flex;
-    justify-content: space-between;
     padding: 60px;
-    top: 55px;
     gap: 30px;
+    justify-content: center;
 }
 .text-p{
     font-size: 17px;
@@ -36,6 +34,10 @@
     flex-direction: column;
     justify-content: space-between;
     
+}
+.icon_with_text{
+    display: flex;
+    align-items: center;
 }
 .block_image{
     position: absolute;

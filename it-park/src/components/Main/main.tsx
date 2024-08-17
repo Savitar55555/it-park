@@ -3,20 +3,21 @@ import Image from "next/image";
 
 export default function Main() {
     return (
-      <main className={styles.main}>
-        <div className={styles.mainContent}>         
+      <main className={styles.main}>       
           <div className={styles.main_text}>
-            <h1 className={styles.main_text_h1}>
-              Передовые технологии <br /> обучения        
-              <Image className={styles.icons} src="/images/mainImg/icons.svg" alt="d" width={140} height={55} />         
-            </h1>
-            <p className={styles.main_text_desc}>
-              Англия стала объединением  семи <br />
-              некогда враждовавших королевств в 927
-            </p>
-            <div className={styles.arrow_scroll}>
-              <Image className={styles.icon_2} src="/images/mainImg/arrow.svg" alt="" width={60} height={60} /> 
-              <p className={styles.main_text_scroll}>Скрольте вниз</p> 
+            <div>
+              <h1 className={styles.main_text_h1}>
+                Передовые технологии <br /> обучения        
+                <Image className={styles.icons} src="/images/mainImg/icons.svg" alt="d" width={140} height={55} />         
+              </h1>
+              <p className={styles.main_text_desc}>
+                Англия стала объединением  семи <br />
+                некогда враждовавших королевств в 927
+              </p>
+              <div className={styles.arrow_scroll}>
+                <Image className={styles.icon_2} src="/images/mainImg/arrow.svg" alt="" width={60} height={60} /> 
+                <p className={styles.main_text_scroll}>Скрольте вниз</p> 
+              </div>
             </div>
           </div>
           <div className={styles.image_container}>
@@ -55,16 +56,16 @@ export default function Main() {
                         +3 направления
                       </a>
                     </div>
-                    <Image src="/images/mainImg/upper_right_arrow.svg" alt="" width={40} height={40}/>
+                  <Image src="/images/mainImg/upper_right_arrow.svg" alt="" width={40} height={40}/>
                   </div>
                   
-                </div>
               </div>
+            </div>
 
           </div>
           
-          </div>
         </div>
+        
       </main>
     );
 }

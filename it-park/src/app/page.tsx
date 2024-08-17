@@ -1,8 +1,12 @@
-import Info from "@/components/MainInfo/info";
+import Components from "@/components/MainComponents/components";
+import Footer from "@/components/Footer/footer";
+import Header from "@/components/Header/header";
 export default function Home() {
   return (
     <div>
-      <Info></Info>
+      <Header></Header>
+      <Components></Components>
+      <Footer></Footer>
     </div>
   );
 }
