@@ -1,8 +1,8 @@
 .footer{
     display: flex;
     gap: 30px;
-    padding:0 0px 0 60px;
     justify-content: center;
+    margin: 0 60px ;
 }
 .block_1{
     display: flex;
@@ -96,5 +96,73 @@
     color: white;
     border-radius: 10px;
     padding: 18px 26px 18px 26px;
-    
+}
+@media (max-width:900px) {
+    .footer{
+        gap: 20px;
+    }
+    .block_2{
+        width: 442px;
+        height: 370px;
+    }
+    .block_1{
+        width: 40%;
+        height: auto;
+    }
+    .mapImg{
+        width: 107px;
+        height: 107px;
+    }
+    .icons{
+        font-size: 17px;
+    }
+    .icons_text{
+        font-size: 12px;
+    }
+    .text{
+        font-size: 12.7px;
+    }
+    .itpark{
+        width: 38.8px;
+        height: 37.3px;
+    }
+    .input_box{
+        width: 267px;
+        height: 37px;
+    }
+    .buttonOtpr{
+        width: 267px;
+        height: 37px;
+    }
+    .textOninput{
+        font-size: 14px;
+    }
+    .links_text{
+        font-size: 12px;
+    }
+    .links_icon{
+        width: 14px;
+        height: 14px;
+    }
+}
+@media (max-width:500px) {
+    .footer{
+        flex-direction: column-reverse;
+        align-content: center;
+        flex-wrap: wrap; 
+        align-items: center;
+        margin: 0 10px;
+    }
+    .mapImg{
+        width: 93px;
+        height: 93px;
+    }
+    .block_1{
+        width: auto;
+    }
+    .block_2{
+        max-width: 335px;
+        width: 100%;
+        height: 400px;
+    }
 }

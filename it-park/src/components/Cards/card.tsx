@@ -7,17 +7,17 @@ export default function Cards() {
             <div className={styles.card}>
                 <div className={styles.card_1}>
                     <div className={styles.card_text_1}>
-                      <h2>
+                      <h2 className={styles.h2}>
                         <Image src="/images/cardsImg/card.svg" alt="" width={69} height={24} />
                         IT Park — один из лидеров один из лидеров
                       </h2>
                     </div>
                     <div className={styles.arrow_container}>
                         <button className={styles.left_button}>
-                          <Image src="images/cardsImg/arrowleft.svg" alt="Левая кнопка" width={34} height={34}/>
+                          <Image className={styles.left_button} src="images/cardsImg/arrowleft.svg" alt="Левая кнопка" width={34} height={34}/>
                         </button>
                         <button className={styles.right_button}>
-                          <Image src="images/cardsImg/arrowright.svg" alt="Правая кнопка" width={34} height={34}/>
+                          <Image className={styles.right_button} src="images/cardsImg/arrowright.svg" alt="Правая кнопка" width={34} height={34}/>
                         </button>
                     </div>
                 </div>
@@ -39,15 +39,15 @@ export default function Cards() {
             <div className={styles.card}>
                 <div className={styles.card_1}>
                     <div className={styles.card_text_2}>
-                        <h2>
+                        <h2 className={styles.sev}>
                             700+
                         </h2>
-                        <div>
-                        Учеников прошли наши курсы
+                        <div className={styles.stu}>
+                            Учеников прошли наши курсы
                         </div>
                     </div>
                     <div className={styles.contact_container}>
-                        <Image src="images/cardsImg/contactCard.svg" alt="i" width={46} height={46}/>
+                        <Image className={styles.contact} src="images/cardsImg/contactCard.svg" alt="i" width={46} height={46}/>
                     </div>
                 </div>
                 <div>
@@ -55,26 +55,27 @@ export default function Cards() {
                 </div>
             </div>
             <div className={styles.card_special}>
-                <Image className={styles.card_photo} src="/images/cardphoto.jpeg" alt="j" width={420} height={600} />
-                <div className={styles.card_text_3}>
-                    <h3>Ивенты</h3>
+                <div className={styles.card_1}>
                     <div>
-                        <p>
+                        <h3 className={styles.events}>Ивенты</h3>
+                        <p className={styles.location}>
                             <Image src="/images/cardsImg/icon1.svg" alt="" width={18} height={18} />
                             15.11.23 ноября, 15:00
                         </p>
-                        <p>
+                        <p className={styles.location}>
                             <Image src="/images/cardsImg/icon2.svg" alt="" width={18} height={18} />
                             Ololo House, 2 этаж
                         </p>
-                        
+                    </div>
+                    <div className={styles.nothing}>
+
                     </div>
                 </div>
                 <div>
                     <div >
                         <div className={styles.card_text_3}>
                             Час кода:
-                            <h3>
+                            <h3 className={styles.events}>
                             Приложение на 
                             Flutter за один час.
                             </h3>

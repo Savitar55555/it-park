@@ -1,15 +1,13 @@
-
 .header {
-    position: relative; 
+    position: absolute; 
     background: rgba(255, 255, 255, 0.5);
-    width: 1316px; 
+    max-width: 1316px;
+    width: 90%;
     height: 74px;
-    margin: 0 auto; 
     border-radius: 16px;
     padding: 12px;
     display: flex;
     top: 80px; 
-    position: absolute;
     left: 50%; 
     transform: translateX(-50%); 
 }
@@ -42,10 +40,97 @@
     color: rgb(22, 22, 22);
     font-weight: 500;
 }
-.icon{
+
+.icon {
     width: 30px;
     height: 30px;
     border-radius: 50px;
     background: #FEFEFE;
     padding: 7px;
+}
+
+@media (max-width: 1200px) {
+    .header {
+        height: 66.7px;
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 900px) {
+    .header {
+        width: 688px;
+        margin-left: 0;
+        top: 46px;
+        z-index: 9999;
+        
+    }
+    
+    .itpark {
+        width: 36px;
+        height: 35.5px;
+    }
+    .rightSection{
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .button_menu {
+        display: flex;
+    }
+
+    .modal {
+        width: 224px;
+        height: 252px;
+        background-color: #FEFEFE;
+        display: none;
+        position: absolute;
+        top: 65px;
+        filter: none;
+        padding: 20px;
+        gap: 18px;
+    }
+    .button{
+        display:none;
+    }
+    .modal.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .button_open{
+        padding: 10px 20.13px;
+        background: #9B7D6F;
+        display: flex;
+        font-size: 11px;
+        width: 185.5px;
+        height: 40.5px;
+        border-radius: 84px;
+        color: white;
+        text-decoration: none;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+    .icon{
+        width: 25.32px;
+        height: 25.32px;
+        align-items: center;
+        display: flex;
+        gap: 6px;
+    }
+    .consult{
+        color: #FEFEFE;
+        
+    }
+}
+@media (max-width:768px) {
+    .header{
+        width: 80%;
+    }
+}
+@media (max-width:500px) {
+    .header{
+        width: 319px;
+    }
 }

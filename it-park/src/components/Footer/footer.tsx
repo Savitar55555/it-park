@@ -6,26 +6,26 @@ export default function Footer(){
             <div className={styles.footer}> 
                 <div className={styles.block_1}>
                     <div>
-                        <Image src="/images/mainImg/itpark.svg" alt="" width={100} height={96} />
+                        <Image className={styles.itpark} src="/images/mainImg/itpark.svg" alt="" width={100} height={96} />
                         <p className={styles.text}>Ну кароче там текст вроде как 123 и так далееНу кароче там текст
                         Ну кароче там текст вроде как 123</p>
                     </div>
                     <div>
                         <div className={styles.links}>
-                            <Image src="/Images/headerImg/facebook.svg" alt="" width={28} height={28} />
-                            <a href="">Facebook</a>
+                            <Image className={styles.links_icon} src="/Images/headerImg/facebook.svg" alt="" width={28} height={28} />
+                            <a className={styles.links_text} href="">Facebook</a>
                         </div>
                         <div className={styles.links}>
-                            <Image src="/Images/headerImg/whatsapp.svg" alt="" width={28} height={28} />
-                            <a href="">Whatsapp</a>
+                            <Image className={styles.links_icon} src="/Images/headerImg/whatsapp.svg" alt="" width={28} height={28} />
+                            <a className={styles.links_text} href="">Whatsapp</a>
                         </div>
                         <div className={styles.links}>
-                            <Image src="/Images/headerImg/telegram.svg" alt="" width={28} height={28} />
-                            <a href="">Telegram</a>
+                            <Image className={styles.links_icon} src="/Images/headerImg/telegram.svg" alt="" width={28} height={28} />
+                            <a className={styles.links_text} href="">Telegram</a>
                         </div>
                         <div className={styles.links}>
-                            <Image src="/Images/headerImg/instagram.svg" alt="" width={28} height={28} />
-                            <a href="">Instagram</a>
+                            <Image className={styles.links_icon} src="/Images/headerImg/instagram.svg" alt="" width={28} height={28} />
+                            <a className={styles.links_text} href="">Instagram</a>
                         </div>
                     </div>
                 </div>
@@ -41,11 +41,11 @@ export default function Footer(){
                             <div>
                                 <div className={styles.icons}>
                                     <Image src="/Images/footerIcons/cityIcon.svg" alt="" width={30} height={30} />
-                                    Город Ош, ​Улица Ленина, 318 / 3 этаж
+                                    <p className={styles.icons_text}>Город Ош, ​Улица Ленина, 318 / 3 этаж</p>
                                 </div>
                                 <div className={styles.icons}>
                                     <Image src="/Images/footerIcons/graph.svg" alt="" width={30} height={30} />
-                                    График работы: 10:00-20:00
+                                    <p className={styles.icons_text}>График работы: 10:00-20:00</p>
                                 </div>
                             </div>
                         </div>

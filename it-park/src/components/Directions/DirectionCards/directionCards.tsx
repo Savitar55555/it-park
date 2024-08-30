@@ -12,9 +12,7 @@ interface DirectionProps {
 const DirectionCards: React.FC<DirectionProps> = ({ title,backgroundColor,titleColor,textColor,boxColor }) => {
     return(
         <div className={styles.directions}
-        style={{ backgroundColor: backgroundColor || '#f9f9f9' }} 
-
-        >
+        style={{ backgroundColor: backgroundColor || '#f9f9f9' }} >
             <div className={styles.block_1}>
                 <div className={styles.title_block}>
                     <div style={{ backgroundColor: boxColor || '#000000' }} className={styles.title_box}>
@@ -41,7 +39,6 @@ const DirectionCards: React.FC<DirectionProps> = ({ title,backgroundColor,titleC
             </div>
             <div className={styles.block_2}>
                 <div className={styles.bigCard}>
-                    <Image className={styles.bigCard_img} src="/images/direction/bigCard.jpeg" alt="" width={660} height={360} />
                     <div className={styles.more_button}>
                         <a className={styles.more} href="">
                             Узнать подробнее
@@ -59,7 +56,7 @@ const DirectionCards: React.FC<DirectionProps> = ({ title,backgroundColor,titleC
                         <div className={styles.card_b}>
                             <div className={`${styles.rotation} ${styles.rotation1}`}>Web-design</div>
                             <div className={`${styles.rotation} ${styles.rotation2}`}>Mobile</div>
-                            <div className={styles.rotation3}><Image src="/images/direction/circle.svg" alt="" width={28} height={31} /></div>
+                            <div className={styles.rotation3}><Image className={styles.circle} src="/images/direction/circle.svg" alt="" width={28} height={31} /></div>
                             <div className={`${styles.rotation} ${styles.rotation4}`}>Figma</div>
                             <div className={`${styles.rotation} ${styles.rotation5}`}>Photoshop</div>
                         </div>
@@ -94,7 +91,7 @@ const DirectionCards: React.FC<DirectionProps> = ({ title,backgroundColor,titleC
 
                     </div>
                     <div className={styles.card_2}>
-                        <Image src="/Images\direction\miniCard.svg" alt="" width={270} height={360} />
+                        <Image className={styles.card_2img} src="/Images\direction\miniCard.svg" alt="" width={270} height={360} />
                     </div>
                 </div>
             </div>
