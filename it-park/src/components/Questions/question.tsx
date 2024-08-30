@@ -12,9 +12,7 @@ export default function Question() {
                 </div>        
                 <div className={styles.image_container}>
                     
-                    <Image className={styles.block_image} src="/images/cardphoto.jpeg" alt="" width={630} height={400} />
                     <p className={styles.image_text} >Смотреть больше об IT park</p>
-                    
                     <div className={styles.image_text}>
                         <p className={styles.icon_with_text}>
                             <Image src="/images/advanced/playIcon.svg" alt="" width={30} height={30}  />

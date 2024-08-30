@@ -1,5 +1,5 @@
 .desk {
-    height: 933px;
+    height: 69vw;
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -8,9 +8,9 @@
   
 .title {
     position: absolute;
-    width: 630px;
-    top: 648px;
-    left: 58px;
+    width: 43.6vw;
+    top: 45vw;
+    left: 4vw;
 }
   
 .block{
@@ -44,82 +44,252 @@
 }
   
 .photo_big1 {
-    top: 104px;
-    left: 58px;
-    width: 200px;
-    height: 198px;
+    top: 7.22vw;
+    left: 4vw;
 }
   
 .photo_big2 {
-    top: 111px;
-    left: 690px;
-    width: 200px;
-    height: 198px;
-
+    top: 7.72vw;
+    left: 48vw;
 }
 
 .photo_big3 {
-    width: 200px;
-    height: 198px;
-    top: 345px;
-    left: 1185px;
+    top: 24vw;
+    left: 82.3vw;
     
 }
   
 .photo_mid1{
-    top: 93px;
-    left: 1132px;
+    top: 6.5vw;
+    left: 78.7vw;
 }
 .photo_mid2{
-    top: 339px;
-    left: 979px;
+    top: 23.6vw;
+    left: 68vw;
 }
 .photo_mid3{
-    top: 589px;
-    left: 466px;
+    top: 40.9vw;
+    left: 32.4vw;
 }
 .photo_mid4{
-    top: 638px;
-    left: 802px;
+    top: 44.33vw;
+    left: 55.7vw;
 }
 .photo_small {
-    width: 119px;
-    height: 119px;
-    top: 407px;
-    left: 407px;
+    top: 28.3vw;
+    left: 28.3vw;
 }
 .icons {
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(25%, -60%);
+    transform: translate(37%, -60%);
 }
 .photo {
     border-radius: 12px;
     object-fit: cover;
+    
 }
 .card1{
     position: absolute;
-    top: 385px;
-    left: 60px;
+    top: 26.74vw;
+    left: 4.2vw;
+    
 }
 .card2{
     position: absolute;
-    top: 266px;
-    left: 476px;
+    top: 18.5vw;
+    left: 33.1vw;
+    
 }
 .card3{
     position: absolute;
-    top: 142px;
-    left: 920px;
+    top: 10vw;
+    left: 64vw;
+
 }
 .card4{
     position: absolute;
-    top: 490px;
-    left: 920px;
+    top: 34.1vw;
+    left: 64vw;
 }
 .card5{
     position: absolute;
-    top: 706px;
-    left: 1089px;
+    top: 49vw;
+    left: 70.7vw;
+    
+}
+@media (max-width:1200px) {
+    .photo1{
+        width: 158px;
+        height: 158px;
+    }
+    .photo2{
+        width: 143px;
+        height: 145px;
+    }
+    .photo3{
+        width: 95px;
+        height: 96px;
+    }
+    .photo4{
+        width: 94px;
+        height: 94px;
+    }
+    .photo5{
+        width: 94.5px;
+        height: 94.5px;
+    }
+    .photo6{
+        width: 144px;
+        height: 144px;
+    }
+    .photo7{
+        width: 102.5px;
+        height: 102.5px;
+    }
+    .photo8{
+        width: 98.9px;
+        height: 98.47px;
+    }
+    .title_text{
+        font-size: 31px;
+    }
+}
+@media (max-width:900px) {
+    .title_text{
+        font-size: 25px;
+    }
+    .photo1{
+        width: 132px;
+        height: 132px;
+    }
+    .photo2{
+        width: 102px;
+        height: 104px;
+    }
+    .photo3{
+        width: 70.5px;
+        height: 71px;
+    }
+    .photo4{
+        width: 78.77px;
+        height: 78.77px;
+    }
+    .photo5{
+        width: 69px;
+        height: 69px;
+    }
+    .photo6{
+        width: 105px;
+        height: 105px;
+    }
+    .photo7{
+        width: 85.37px;
+        height: 85.37px;
+    }
+    .photo8{
+        width: 78px;
+        height: 77.5px;
+    }
+}
+@media (max-width:500px){
+    .desk{
+        height: 1000px;
+    }
+    .title_text{
+        font-size: 25px;
+    }
+    .title{
+        width: 90vw;
+        top: 860px;
+    }
+    .photo1{
+        width: 111.43px;
+        height: 111.43px;
+    }
+    .photo2{
+        width: 101px;
+        height: 103px;
+    }
+    .photo3{
+        width: 90.64px;
+        height: 91px;
+    }
+    .photo4{
+        width: 83.73px;
+        height: 82.73px;
+    }
+    .photo5{
+        width: 90.25px;
+        height: 90.25px;
+    }
+    .photo6{
+        width: 123px;
+        height: 124px;
+    }
+    .photo7{
+        width: 90.25px;
+        height: 90.25px;
+    }
+    .photo8{
+        width: 90px;
+        height: 90px;
+    }
+    .photo_big1 {
+        top: 27px;
+        left: 4vw;
+    }
+      
+    .photo_big2 {
+        top: 27px;
+        left: 65vw;
+    }
+    
+    .photo_big3 {
+        top: 540px;
+        left: 54vw;
+    }
+      
+    .photo_mid1{
+        top: 700px;
+        left: 43.4vw;
+    }
+    .photo_mid2{
+        top: 188px;
+        left: 68vw;
+    }
+    .photo_mid3{
+        top: 400px;
+        left: 11.4vw;
+    }
+    .photo_mid4{
+        top: 320px;
+        left: 50vw;
+    }
+    .photo_small {
+        top: 188px;
+        left: 20vw;
+    }
+    .card1{
+        top: 290px;
+        left: 4.2vw;
+    }
+    .card2{
+        top: 106px;
+        left: 31.1vw;
+    }
+    .card3{
+        top: 740px;
+        left: 16vw;
+    }
+    .card4{
+        top: 440px;
+        left: 34vw;
+        
+    }
+    .card5{
+        top: 540px;
+        left: 4vw;
+    }
 }

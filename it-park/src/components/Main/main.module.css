@@ -1,15 +1,27 @@
 
 .main{
-    margin: 60px 0px 50px 40px;
+    margin: 60px 30px 50px 70px;
     display: flex;
-    align-items: flex-end;
     justify-content: center;
+}
+.text_container{
+    width: 50%;
+    position: relative;
+    display: flex;
+    max-height: 700px;
+    align-items: flex-end;
 }
 
 .image_container{
+    background-image: url("/images/mainImg/mainphoto.svg");
+    background-position: center;
+    background-size: cover;
     display: flex;
     align-items: flex-end;
-    justify-content: space-around;
+    width: 660px;
+    height: 700px;
+    padding: 30px;
+    border-radius: 28px;
 }
 
 .directions {
@@ -21,48 +33,36 @@
     border-radius: 8px;
     font-size: 17px;
     margin-bottom: 20px;
+    padding: 10px 14px;
     
 }
 
-.directions_1 {
-    width: 139px;
-}
 
-.directions_2 {
-    width: 103px;
-}
-
-.directions_3 {
-    width: 99px;
-}
 
 .direct_buttons_1,
 .direct_buttons_2,
 .direct_buttons_3 {
     position: absolute;
-    width: 150px;
-    height: 52px;
+    
 }
 
 .direct_buttons_1 {
-    top: 230px;
-    left: 277px;
+    top: 16.5vw;
+    left: 20.3vw;
 }
 
 .direct_buttons_2 {
-    top: 310px;
-    left: 500px;
+    top: 22.4vw;
+    left: 34.1vw;
 }
 
 .direct_buttons_3 {
-    top: 380px;
-    left: 95px;
+    top: 26.4vw;
+    left: 6.6vw;
 }
 
 .main_text {
     box-sizing: border-box;
-    width: 625px;
-    
 }
 
 .main_text_h1 {
@@ -90,17 +90,14 @@
 
 .arrow_scroll {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 176px;
+    
 }
 
 .cards {
-    position: absolute;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
-    gap: 30px !important;
+    gap: 30px ;
 }
 
 .card_info {
@@ -118,8 +115,8 @@
 
 .plus_icon {
     position: absolute;
-    bottom: 40px;
-    right: 140px;
+    right: 90%;
+    bottom: 80%;
 }
 
 .rightSection {
@@ -158,25 +155,19 @@
 .contact_text_1{
     font-size: 14px;
     color: rgba(199, 199, 204, 1);
-    
-
 }
 .contact_text_2{
     font-size: 17px;
     color: #FFFFFF;
     line-height: 20.29px;
     font-weight: 500;
-    border-bottom: solid 1px #FFFFFF;
-    height: 114px;
-    
-
+    border-bottom: solid 1px #FFFFFF;    
 }
 .link{
     display: flex;
     border: 1px solid #FFFFFF;
     border-radius: 24px; 
-    width: 91px;
-    height: 41px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
 
@@ -189,8 +180,7 @@
     display: flex;
     border: 1px solid #FFFFFF;
     border-radius: 24px; 
-    width: 155px;
-    height: 40px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -200,12 +190,294 @@
 }
 .block{
     display: flex;
-    width: 211px;
-    height: 40px;
     gap: 16px;
 }
 .connection{ 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+@media (max-width:1200px) {
+    .main{
+        margin: 24px;
+    }
+    .image_container{
+        width: 497px;
+        height: 558px;
+        padding: 20px;
+    }
+    .card_info{
+        width: 216px;
+        height: 185px;
+    }
+    .contact{
+        width: 22.7px;
+    }
+    .contact_text{
+        font-size: 12.4px;
+    }
+    .contact_text_2{
+        font-size: 8.78px;
+        line-height: normal;
+        
+    }
+    .contact_text_1{
+        font-size: 7.23px;
+    }
+    .link{
+        padding: 7.5px;
+    }
+    .link2{
+        padding: 7.5px;
+    }
+    .link2 a{
+        font-size: 10px;
+    }
+    .link a{
+        font-size: 10px;
+    }
+    .arrow3{
+        width: 28px;
+        height: 28px;
+    }
+    .main_text_h1{
+        font-size: 41px;
+        line-height: normal;
+    }
+    .icons{
+        width: 99px;
+        height: 30px;
+    }
+    .main_text_desc{
+        font-size: 13px;
+        line-height: normal;
+    }
+    .icon_2{
+        width: 50px;
+        height: 50px;
+    }
+    .directions{
+        padding: 7px 10px;
+        font-size: 12px;
+    }
+    .direct_buttons_2{
+        left: 34vw;
+    }
+}
+@media (max-width:900px) {
+    .main{
+        justify-content: center;
+        margin: 30px 70px;
+        gap: 30px;
+    }
+    .image_container{
+        width: 335px;
+        height: 356px;
+        padding: 10px;
+    }
+    .cards{
+        gap: 15.5px;        
+    }
+    .card_info{
+        width: 147px;
+        height: 124px;
+        padding: 16px;
+    }
+    .main_text_h1{
+        font-size: 28px;
+    }
+    .directions{
+        font-size: 7.43px;
+        padding: 4px 6px;
+        height: auto;
+    }
+    .icon_2{
+        width: 26px;
+        height: 26px;
+    }
+    .main_text_scroll{
+        font-size: 9px;
+    }
+    .plus_icon{
+        width: 9.5px;
+        height: 9.5px;
+        bottom: 90%;
+    }
+    .direct_buttons_1{
+        top: 80px;
+
+    }
+    .direct_buttons_2{
+        top: 120px;
+        left: 240px;
+    }
+    .direct_buttons_3{
+        top:130.57px;
+    }
+    .link{
+        padding: 5.17px;
+    }
+    .link2{
+        padding: 5.17px;
+        width:80px;
+        height: 20px;
+    }
+    .link a{
+        font-size: 8.78px;
+    }
+    .link2 a{
+        font-size: 8.78px;
+    }
+    .block{
+        height: 80px;
+    }
+}
+/* @media (max-width:768px) {
+    .card_info{
+        width: 50%;
+    }
+} */
+@media (max-width: 768px){
+    .main {
+        justify-content: center;
+        margin: 30px 50px;
+        gap: 20px;
+    }
+    .image_container {
+        width: 300px;
+        height: 320px;
+        padding: 15px;
+    }
+    .cards {
+        gap: 10px;        
+    }
+    .card_info {
+        width: 120px;
+        height: 100px;
+        padding: 12px;
+    }
+    .main_text_h1 {
+        font-size: 24px;
+    }
+    .directions {
+        font-size: 10px;
+        padding: 5px 8px;
+        height: auto;
+    }
+    .icon_2 {
+        width: 20px;
+        height: 20px;
+    }
+    .main_text_scroll {
+        font-size: 10px;
+    }
+    .plus_icon {
+        width: 10px;
+        height: 10px;
+        bottom: 85%;
+    }
+    .direct_buttons_1 {
+        top: 70px;
+    }
+    .direct_buttons_2 {
+        top: 100px;
+        left: 220px;
+    }
+    .direct_buttons_3 {
+        top: 110px;
+    }
+    .link, .link2 {
+        padding: 6px;
+    }
+    .link a, .link2 a {
+        font-size: 9px;
+    }
+    .block {
+        height: 70px;
+    }
+}
+
+@media (max-width:500px) {
+    .main{
+        flex-direction: column-reverse;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        margin: 0 10px;
+        gap: 30px;
+    }
+    .image_container{
+        width: 100%;
+        max-width: 335px;
+        height: 356px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    .cards{
+        gap: 15.5px;        
+    }
+    .card_info{
+        width: 50%;
+        height: 124px;
+        padding: 16px;
+    }
+    .main_text_h1{
+        font-size: 28px;
+    }
+    .directions{
+        font-size: 7.43px;
+        padding: 4px 6px;
+        height: auto;
+    }
+    .icon_2{
+        width: 26px;
+        height: 26px;
+    }
+    .main_text_scroll{
+        font-size: 9px;
+    }
+    .plus_icon{
+        width: 9.5px;
+        height: 9.5px;
+        bottom: 90%;
+    }
+    .direct_buttons_1{
+        top: 0px;
+
+    }
+    .direct_buttons_2{
+        top: 50px;
+        left: 240px;
+    }
+    .direct_buttons_3{
+        top:80.57px;
+    }
+    .link{
+        padding: 5.17px;
+    }
+    .link2{
+        padding: 5.17px;
+        width:80px;
+        height: 20px;
+    }
+    .link a{
+        font-size: 8.78px;
+    }
+    .link2 a{
+        font-size: 8.78px;
+    }
+    .block{
+        height: 80px;
+    }
+    .text_container{
+        height: 300px;
+        width: 100%;
+        justify-content: center;
+    }
+    .direct_buttons_1{
+        left: 30vw;
+    }
+    .direct_buttons_3{
+        left: 13vw;
+    }
 }

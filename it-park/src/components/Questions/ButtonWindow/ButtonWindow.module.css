@@ -1,7 +1,7 @@
 
 .container {
     box-sizing: border-box;
-    width: 660px;
+    width: 100%;
     height: 56px;
     position: relative;
     display: inline-block;
@@ -39,8 +39,17 @@
 .content_img{
     border-radius: 12px;
     margin-top: 12px;
-
+    width: 100%;
 }
-
+@media (max-width:1200px) {
+    .button{
+        font-size: 20px;
+    }
+}
+@media (max-width:900px) {
+    .button{
+        font-size: 24px;
+    }
+}
 
   

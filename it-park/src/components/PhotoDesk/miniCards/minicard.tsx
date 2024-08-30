@@ -16,7 +16,7 @@ const Card: React.FC<CardProps> = ({opacity,backgroundColor}) => {
         <div className={styles.card_box} style={cardStyle} >
             <div className={styles.card_text1}>
                 <Image className={styles.img} src="/Images/photoDesk/icon2.svg" alt="" width={20} height={20}  />
-                <p>Лучшие курсы, отличные ребята! 
+                <p className={styles.course}>Лучшие курсы, отличные ребята! 
                 Понимают что делают</p>
             </div>
             <div className={styles.card_text2}>

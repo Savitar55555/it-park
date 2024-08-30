@@ -20,3 +20,37 @@
 .img2{
     border-radius:50px;
 }
+@media (max-width:1200px) {
+    .card_box{
+        width: 265px;
+        height: 125px;
+    }
+}
+@media (max-width:900px) {
+    .card_box{
+        width: 180.5px;
+        height: 93.8px;
+        padding: 12px;
+        gap: 5px;
+    }
+    .course{
+        font-size: 10.5px;
+    }
+    .img{
+        width: 12px;
+        height: 12px;
+    }
+    .img2{
+        width: 18px;
+        height: 18px;
+    }
+    .card_text2{
+        font-size: 7.35px;
+    }
+}
+@media (max-width:500px) {
+    .card_box{
+        width: 162px;
+        height: 85px;
+    }
+}
