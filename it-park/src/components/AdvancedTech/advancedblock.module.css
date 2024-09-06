@@ -169,7 +169,7 @@
     .block_1{
         grid-column: 2;
         grid-row: 3;
-        overflow: hidden;
+        overflow: scroll;
     }
     .mini_cards{
         display: flex;
@@ -192,7 +192,8 @@
     .block_1{
         grid-column: 2;
         grid-row: 3;
-        overflow: hidden;
+        overflow: scroll;
+        text-decoration: none;
     }
     .mini_cards{
         display: flex;

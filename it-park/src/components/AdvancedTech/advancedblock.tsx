@@ -1,6 +1,7 @@
 import styles from "./advancedblock.module.css"; 
 import Image from "next/image";
 export default function Advanced() {
+  
 
   return(
     <div className={styles.advancedblock}> 
@@ -55,6 +56,7 @@ export default function Advanced() {
         </div>
             
       </div>
+      
     </div>
   )  
 }  
