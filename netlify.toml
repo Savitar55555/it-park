@@ -1,0 +1,7 @@
+[build]
+  base = "it-park/it-park"  # Путь к каталогу, содержащему ваш проект
+  publish = "it-park/it-park/.next"  # Путь к каталогу для публикации
+  command = "npm run build"
+
+[functions]
+  directory = "it-park/it-park/netlify/functions"  # Путь к каталогу функций
